@@ -1,7 +1,19 @@
-body{
-    margin: 0;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 15px;
-    color : #222222;
-    line-height : 1.6;
+.menu {
+width: 220px; /* Ширина меню */
+padding: 5px; /* Отступы от рамки до пунктов меню */
+border: 1px solid #000; /* Рамка вокруг меню */
+} 
+.menu P { 
+margin: 0 0 5px; 
+}
+.menu A {
+padding: 2px; /* Отступ от рамки вокруг ссылки до текста */
+display: block; /* Ссылка как блочный элемент */
+border: 1px solid #fff; /* Маскируем рамку вокруг ссылки */
+text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+.menu A:hover {
+background: #faf3d2; /* Цвет фона под ссылкой */
+color: #800000; /* Новый цвет ссылки */
+border: 1px dashed #634f36 /* Рамка вокруг ссылки */
 }
