@@ -1,0 +1,22 @@
+.wrap{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    background-color:aqua;
+}
+.content{
+    float: left;
+    width: 80%;
+    background-color:blue;
+}
+aside{
+    float: left;
+    width: 20%;
+    background-color:blueviolet;
+}
+footer{
+    clear: both;
+    background-color:brown;
+}
