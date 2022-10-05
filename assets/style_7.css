@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    overflow:  hidden;
+}
+.wrap{
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.header{
+    height: 15%;
+    position: relative; 
+}
+.header>div{
+    display: inline-block;
+    width: calc(100%/3);
+    height: 100%;
+    border: 1px solid red;
+    background: gray;
+}
+.influencer{
+    float:left;
+}
+.influencer:first-child{
+    height: 20px;
+    width: 100px;
+}
+.plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.web_influencer{
+    float:right;
+}
+
+
+
+
+.content{
+    height: 60%;
+    background: green 
+}
+.footer{
+    height: 25%;  
+    background: goldenrod
+}

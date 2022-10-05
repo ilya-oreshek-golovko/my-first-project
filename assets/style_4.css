@@ -1,21 +1,28 @@
 .wrap{
     width: 1140px;
     margin: 0 auto;
+    background: blueviolet;
 }
 
 header{
     background-color:aqua;
 }
-.content{
+.content1{
     float: left;
-    width: 80%;
+    width: 30%;
     background-color:blue;
 }
-aside{
-    float: left;
-    width: 20%;
-    background-color:blueviolet;
+.content2{
+    float: right;
+    width: 30%;
+    background-color:blue;
 }
+.content3{
+    margin-top: 20px;
+    width: 30%;
+    background-color:blue;
+}
+
 footer{
     clear: both;
     background-color:brown;

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@font-face {
+	font-family: '_PTSans-Italic_';
+	src: url('../fonts/PTSans-Italic.eot');
+	src: local('☺'), url('../fonts/PTSans-Italic.eot') format('woff'), url('../fonts/PTSans-Italic.ttf') format('truetype'), url('../fonts/PTSans-Italic.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: '_PTSans-Bold_';
+	src: url('../fonts/PTSans-Bold.eot');
+	src: local('☺'), url('../fonts/PTSans-Bold.woff') format('woff'), url('../fonts/PTSans-Bold.ttf') format('truetype'), url('../fonts/PTSans-Bold.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+.test16{
+    font-family: '_PTSans-Italic_';
+}
+.test17{
+    font-family: '_PTSans-Bold_';
+}
+.test18{
+    font-family: "Black Ops One";
+}
+
+
+.test2{
+    font-family: "Gill Sans Extrabold", sans-serif;;
+}
+.test3{
+    font-size: 30px;
+}
+.test4{
+    font-style: italic;
+}
+.test5{
+    font-weight: 700;
+}
+.test6{
+    color: #f48268;
+}
+.test7{
+    text-align: justify;
+}
+.test8{
+    text-decoration: line-through;
+}
+.test9{
+    text-shadow: 3px 3px 5px #000;
+}
+.test10{
+    text-transform: none;
+}
+.test11{
+    text-indent: 30px;
+}
+.test12{
+    letter-spacing: 5px;
+}
+.test13{
+    word-spacing: 5px;
+}
+.test14{
+    white-space: nowrap;
+}
+.test15{
+    line-height: 1.5;
+}
