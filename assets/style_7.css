@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 html, body {
     height: 100%;
     overflow:  hidden;
@@ -14,31 +10,34 @@ html, body {
 }
 .header{
     height: 15%;
-    position: relative; 
+    display:flex;
+    align-items: center;
 }
+
 .header>div{
-    display: inline-block;
     width: calc(100%/3);
     height: 100%;
     border: 1px solid red;
     background: gray;
 }
-.influencer{
-    float:left;
-}
-.influencer:first-child{
-    height: 20px;
-    width: 100px;
-}
 .plus{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    margin-left: 5px !important;
+    margin-right: 5px !important;
 }
-.web_influencer{
-    float:right;
+.influencer>img{
+    vertical-align: center;
+    height: 17px;
+}
+.plus>img{
+    height: 50px;
+}
+
+
+
+.content>div{
+    border: 1px solid fuchsia;
+    width: 30%;
+    height: 20%;
 }
 
 
