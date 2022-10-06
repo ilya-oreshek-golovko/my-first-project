@@ -19,16 +19,22 @@ html, body {
     height: 100%;
     border: 1px solid red;
     background: gray;
+    position: relative;
 }
 .plus{
     margin-left: 5px !important;
     margin-right: 5px !important;
 }
 .influencer>img{
-    vertical-align: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
     height: 17px;
 }
 .plus>img{
+    position: absolute;
+    top: 30%;
+    left: 20%;
     height: 50px;
 }
 
