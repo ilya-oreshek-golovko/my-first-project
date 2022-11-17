@@ -1,0 +1,9 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.square{
+	width: 90vmax;
+	height: 90vmin;
+	background-color: black;
+}

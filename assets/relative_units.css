@@ -1,0 +1,64 @@
+:root{
+	font-size: calc(0.2em + 1vw);
+	--main-color: #ccc;
+	--panel-color: red;
+	--text-color: white;
+}
+/*@media (min-width: 800px){
+	:root{
+		font-size: 0.875em;
+	};
+}
+@media (min-width: 1200px){
+	:root{
+		font-size: 1em;
+	};
+}*/
+body {
+	margin: 1.5em;
+	line-height: 1.1;
+}
+.box {
+	padding: 1em;
+	border-radius: 1em;
+	background-color: var(--main-color, red);
+}
+.box-small {
+	font-size: 12px;
+}
+.box-large {
+	font-size: 18px;
+}
+.slogan {
+	font-size: 1.2em;
+	padding: 1.2em; 
+	background-color: var(--main-color, red);
+}
+ul{
+	font-size: 1rem;
+}
+
+.panel {
+	font-size: 1rem;
+	padding: 1em;
+	border-radius: 0.5em;
+	border: 1px solid grey;
+	background-color: var(--panel-color);
+	color: var(--text-color);
+}
+.panel > h2 {
+	margin-top: 0;
+	font-size: 0.8em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.dark{
+	--panel-color: black;
+	--text-color: grey;
+}
+.panel.large { 
+	font-size: 1.2em;
+}
+.about{
+	font-size: 2em;
+}

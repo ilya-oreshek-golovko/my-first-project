@@ -5,8 +5,65 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/relative_units.css">
 	<title>Document</title>
+	<script type="text/javascript">
+		let rootElement = document.documentElement;
+		let styles = getComputedStyle(rootElement);
+		let mainColor = styles.getPropertyValue("--panel-color");
+		console.log(String(mainColor).trim());
+		rootElement.style.setProperty("--panel-color", "green");
+	</script>
 </head>
 <body>
-	<p>Hello !</p>
+
+	<span class="box box-small">Маленький</span>
+	<span class="box box-large">Большой</span>
+	Мы любим кофе
+	<p class="slogan">Мы любим кофе</p>
+
+	<ul>
+		<li>Верхний уровень 
+			<ul> 
+				<li>Второй уровень 
+					<ul> 
+						<li>Третий уровень 
+							<ul>
+								<li>Четвертый уровень
+									<ul>
+										<li>Пятый уровень</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+	<br>
+	<div class="panel large">
+		<h2>Moнocopтa</h2>
+		Мы сотрудничаем с небольшими плантациями по всему миру, чтобы собирать зерна в пик сезона. Затем мы тщательно поджариваем зерна <a href="./units_for_background_size.html">нeбoльшими партиями</a>, чтобы максимально раскрыть их потенциал.
+	</div>
+	<br>
+	<p class="about">
+		Мы сотрудничаем с небольшими плантациями по всему миру, чтобы собирать зерна в пик сезона. Затем мы тщательно поджариваем зерна <a href="./units_for_background_size.html">нeбoльшими партиями</a>, чтобы максимально раскрыть их потенциал.
+	</p>
+
+	<div class="panel">
+		<h2>Moнocopтa</h2>
+		<div class="panel-body">
+        	Мы сотрудничаем с небольшими плантациями по всему миру, чтобы собирать зерна в пик сезона. Затем мы тщательно поджариваем зерна <a href="./units_for_background_size.html">нeбoльшими партиями</a>, чтобы максимально раскрыть их потенциал.
+		</div>
+	</div>
+	<br>
+	<aside class="dark">
+		<div class="panel">
+			<h2>Moнocopтa</h2>
+			<div class="panel-body">
+	        	Мы сотрудничаем с небольшими плантациями по всему миру, чтобы собирать зерна в пик сезона. Затем мы тщательно поджариваем зерна <a href="./units_for_background_size.html">нeбoльшими партиями</a>, чтобы максимально раскрыть их потенциал.
+			</div>
+		</div>
+	</aside>
 </body>
 </html>
